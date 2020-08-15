@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/*navbar style*/
+
+.navbar .nav-items {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 60, 0);
+    margin: 12px 12px 12px 12px;
+    align-items: center;
+    
+    
+}
+.navbar .logo a{
+    color: rgb(24, 135, 231);
+}
+.navbar .links a{
+    color: black;
+}
+.navbar  .logo  a:hover{
+    color: coral;
+}
+.navbar .nav-items .links a:hover{
+    color: rgb(98, 80, 255);
+}
+
+.showcase-area{
+    text-align: center;
+    margin: 150px;
+}
+
+.showcase-btn{
+   border-radius: 0%;
+   border-block-color: red;
+   text-decoration: none;
+   color: darkslategrey;
+}
+.showcase-btn:hover{
+    color: fuchsia;
+}
